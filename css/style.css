@@ -1,0 +1,38 @@
+p {
+    background-color: blanchedalmond;
+    padding: 10px 30px;
+}
+
+#pan-tadeusz {
+    background-color: darkgrey;
+    color: yellow;
+}
+
+.lorem {
+    font-size: 20px;
+}
+
+p#pierwszy,
+a {
+    color: lime;
+}
+
+div#elementy-potomne > p {
+    background-color: aqua;
+}
+
+p#pierwszy +a {
+    color: lime;
+}
+
+p#pierwszy ~a {
+    background-color: blueviolet;
+}
+
+div#elementy-potomne > p:not(.last) {
+    background-color: yellowgreen;
+}
+
+div#elementy-potomne >p:nth-child(2){
+    background-color: blueviolet;
+}
